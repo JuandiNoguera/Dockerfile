@@ -1,7 +1,7 @@
 <?php
 // Zabbix GUI configuration file.
 
-$DB['TYPE']				= 'MYSQL';
+$DB['TYPE']				= 'POSTGRESQL';
 $DB['SERVER']			= '172.20.240.1';
 $DB['PORT']				= '0';
 $DB['DATABASE']			= 'zabbix';
@@ -12,7 +12,7 @@ $DB['PASSWORD']			= 'zabbix_pwd';
 $DB['SCHEMA']			= '';
 
 // Used for TLS connection.
-$DB['ENCRYPTION']		= false;
+$DB['ENCRYPTION']		= true;
 $DB['KEY_FILE']			= '';
 $DB['CERT_FILE']		= '';
 $DB['CA_FILE']			= '';
